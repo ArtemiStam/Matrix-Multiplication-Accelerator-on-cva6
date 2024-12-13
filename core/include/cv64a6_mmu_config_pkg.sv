@@ -11,7 +11,7 @@ package cva6_config_pkg;
 
   localparam CVA6ConfigXlen = 64;
 
-  localparam CVA6ConfigBExtEn = 1;  // UVM
+  localparam CVA6ConfigBExtEn = 1;  // UVM (I think bit manipulation extension)
   localparam CVA6ConfigRvfiTrace = 1;
 
   localparam CVA6ConfigAxiIdWidth = 4;  // axi_pkg.sv
@@ -37,8 +37,8 @@ package cva6_config_pkg;
       AxiUserWidth: unsigned'(CVA6ConfigDataUserWidth),
       MemTidWidth: unsigned'(CVA6ConfigAxiIdWidth),
       NrLoadBufEntries: unsigned'(2),
-      RVF: bit'(0),
-      RVD: bit'(0),
+      RVF: bit'(0), //doesnt support floating point operations
+      RVD: bit'(0), //doesnt support double precision operations
       XF16: bit'(0),
       XF16ALT: bit'(0),
       XF8: bit'(0),

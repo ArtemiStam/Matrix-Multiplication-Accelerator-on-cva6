@@ -9,10 +9,11 @@
 // Contributor : Guillaume Chauvon
 
 
-#define LOAD_RS(rs,value) li rs, value
+#define LOAD_RS(rs,value) li rs, value //load value to reg rs(not memory)
 #define COMP_RS(rs1,rs2,rd) xor rd, rs1, rs2
 
-#define CUS_NOP() .word 0b##0000000##00000####00000##000##00000##1111011
+#define CUS_NOP() .word 0b##0000000##00000####00000##000##00000##1111011 //nop is x0 <= x0 + 0(x0) |funct7(7bits)|rs2(5bits)|rs1(5bits)|funct3(3bits)|rd(5bits)|opcode(7bits)
+//instruction expl in binary##funct7##rs2####rs1##funct3##rd##11110(opcode)|11(32bit instr)
 #define CUS_ADD(rs1,rs2,rd) .word 0b##0000000##rs2####rs1##001##rd##1111011
 #define CUS_ADD_RS1(rs1,rs2,rd) .word 0b##0000001##rs2####rs1##001##rd##1111011 // only use rs1 : rs1 + rs1 => rd
 #define CUS_ADD_RS2(rs1,rs2,rd) .word 0b##0000010##rs2####rs1##001##rd##1111011 // only use rs2 : rs2 + rs2 => rd

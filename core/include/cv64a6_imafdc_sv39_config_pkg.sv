@@ -12,7 +12,7 @@ package cva6_config_pkg;
 
   localparam CVA6ConfigXlen = 64;
 
-  localparam CVA6ConfigRVF = 1;
+  localparam CVA6ConfigRVF = 1; //supports floating point and double precision operations
   localparam CVA6ConfigF16En = 0;
   localparam CVA6ConfigF16AltEn = 0;
   localparam CVA6ConfigF8En = 0;

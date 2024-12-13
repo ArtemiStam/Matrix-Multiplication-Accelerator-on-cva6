@@ -25,7 +25,7 @@ module cvxif_example_coprocessor
     parameter  type         x_result_t          = logic,
     parameter  type         cvxif_req_t         = logic,
     parameter  type         cvxif_resp_t        = logic,
-    localparam type         registers_t         = logic [NrRgprPorts-1:0][31:0]
+    localparam type         registers_t         = logic [NrRgprPorts-1:0][63:0]
 ) (
     input  logic        clk_i,        // Clock
     input  logic        rst_ni,       // Asynchronous reset active low
@@ -52,7 +52,7 @@ module cvxif_example_coprocessor
   hartid_t issue_hartid, hartid;
   id_t issue_id, id;
   logic [4:0] issue_rd, rd;
-  logic [31:0] result;
+  logic [63:0] result;
   logic        we;
 
   // Issue and Register interface

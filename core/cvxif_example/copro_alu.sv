@@ -23,7 +23,7 @@ module copro_alu
     input  hartid_t           hartid_i,
     input  id_t               id_i,
     input  logic       [ 4:0] rd_i,
-    output logic       [31:0] result_o,     // TODO parametrize to 64 bits
+    output logic       [63:0] result_o,     // TODO parametrize to 64 bits
     output hartid_t           hartid_o,
     output id_t               id_o,
     output logic       [ 4:0] rd_o,
@@ -31,7 +31,7 @@ module copro_alu
     output logic              we_o
 );
 
-  logic [31:0] result_n, result_q;
+  logic [63:0] result_n, result_q;
   hartid_t hartid_n, hartid_q;
   id_t id_n, id_q;
   logic valid_n, valid_q;

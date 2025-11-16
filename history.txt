@@ -1,0 +1,1000 @@
+ 1015  git log
+ 1016  ls
+ 1017  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1018  ./a.out 
+ 1019  git status
+ 1020  ls
+ 1021  git status
+ 1022  ls 
+ 1023  ls
+ 1024  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1025  clear
+ 1026  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1027  gcc -pedantic -Wall test.c 
+ 1028  ./a.out 
+ 1029  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1030  ./a.out 
+ 1031  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1032  ./a.out 
+ 1033  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1034  ./a.out 
+ 1035  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1036  ./a.out 
+ 1037  clear
+ 1038  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1039  ./a.out 
+ 1040  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1041  ./a.out 
+ 1042  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1043  ./a.out 
+ 1044  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1045  ./a.out 
+ 1046  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1047  ./a.out 
+ 1048  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1049  ./a.out 
+ 1050  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1051  ./a.out 
+ 1052  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1053  ./a.out 
+ 1054  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1055  ./a.out 
+ 1056  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1057  ./a.out 
+ 1058  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1059  ./a.out 
+ 1060  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1061  ./a.out 
+ 1062  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1063  ./a.out 
+ 1064  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1065  clear
+ 1066  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1067  ./a.out 
+ 1068  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1069  ./a.out 
+ 1070  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1071  ./a.out 
+ 1072  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1073  ./a.out 
+ 1074  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1075  ./a.out 
+ 1076  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1077  ./a.out 
+ 1078  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1079  ./a.out 
+ 1080  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1081  ./a.out 
+ 1082  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1083  ./a.out 
+ 1084  git status
+ 1085  git add matrix_mult_v1.c 
+ 1086  git commit -m "BUG: incorrect block selection on dense matrix"
+ 1087  git push
+ 1088  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1089  ./a.out 
+ 1090  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1091  ./a.out 
+ 1092  jupyter lab
+ 1093  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1094  ./a.out 
+ 1095  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1096  ./a.out 
+ 1097  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1098  ./a.out 
+ 1099  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1100  ./a.out 
+ 1101  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1102  ./a.out 
+ 1103  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1104  ./a.out 
+ 1105  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1106  ./a.out 
+ 1107  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1108  ./a.out 
+ 1109  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1110  ./a.out 
+ 1111  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1112  ./a.out 
+ 1113  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1114  ./a.out 
+ 1115  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1116  ./a.out 
+ 1117  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1118  ./a.out 
+ 1119  git status
+ 1120  git add matrix_mult_v1.c 
+ 1121  git commit -m "Working"
+ 1122  git push
+ 1123  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1124  git push
+ 1125  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1126  ./a.out 
+ 1127  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1128  ./a.out 
+ 1129  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1130  ./a.out 
+ 1131  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1132  ./a.out 
+ 1133  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1134  ./a.out 
+ 1135  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1136  ./a.out 
+ 1137  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1138  ./a.out 
+ 1139  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1140  ./a.out 
+ 1141  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1142  ./a.out 
+ 1143  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1144  ./a.out 
+ 1145  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1146  ./a.out 
+ 1147  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1148  ./a.out 
+ 1149  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1150  ./a.out 
+ 1151  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1152  ./a.out 
+ 1153  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1154  ./a.out 
+ 1155  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1156  ./a.out 
+ 1157  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1158  ./a.out 
+ 1159  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1160  ./a.out 
+ 1161  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1162  ./a.out 
+ 1163  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1164  ./a.out 
+ 1165  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1166  ./a.out 
+ 1167  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1168  ./a.out 
+ 1169  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1170  ./a.out 
+ 1171  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1172  ./a.out 
+ 1173  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1174  ./a.out 
+ 1175  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1176  ./a.out 
+ 1177  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1178  ./a.out 
+ 1179  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1180  ./a.out 
+ 1181  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1182  ./a.out 
+ 1183  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1184  ./a.out 
+ 1185  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1186  ./a.out 
+ 1187  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1188  ./a.out 
+ 1189  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1190  ./a.out 
+ 1191  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1192  ./a.out 
+ 1193  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1194  ./a.out 
+ 1195  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1196  ./a.out 
+ 1197  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1198  ./a.out 
+ 1199  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1200  ./a.out 
+ 1201  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1202  ./a.out 
+ 1203  git add matrix_mult_v1.c 
+ 1204  git commit -m "BUG: incorrect accelerator values when you call awccelerator write back instruction"
+ 1205  git push
+ 1206  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1207  ./a.out 
+ 1208  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1209  ./a.out 
+ 1210  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1211  ./a.out 
+ 1212  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1213  ./a.out 
+ 1214  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1215  ./a.out 
+ 1216  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1217  ./a.out 
+ 1218  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1219  ./a.out 
+ 1220  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1221  ./a.out 
+ 1222  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1223  ./a.out 
+ 1224  git add matrix_mult_v1.c 
+ 1225  git commit -m "Fix: correct output from accelerator(incorrect range in if statements of case STORE_ACC)"
+ 1226  git push
+ 1227  git commit -m "Fix: correct output from accelerator(incorrect range in if statements of case STORE_ACC)"
+ 1228  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1229  ./a.out 
+ 1230  cd /home/artemi/thesis/cva6/verif/sim/out_2024-12-06/veri-testharness_sim
+ 1231  ls
+ 1232  cat cvxif_rs3.cv64a6_imafdc_sv39.log.iss 
+ 1233  cd /home/artemi/thesis/cva6/verif/sim/out_2024-12-06/veri-testharness_sim
+ 1234  ls
+ 1235  /home/artemi/thesis/cva6/verif/sim/out_2024-12-06/directed_c_tests/
+ 1236  cd /home/artemi/thesis/cva6/verif/sim/out_2024-12-06/directed_c_tests/
+ 1237  ls
+ 1238  cd ~/thesis/cva6/verif/sim/out_2024-12-06/veri-testharness_sim
+ 1239  ls
+ 1240  ls -l
+ 1241  gtkwave hello_world.cv64a6_imafdc_sv39.vcd
+ 1242  Gtkwave hello_world.cv64a6_imafdc_sv39.vcd
+ 1243  GTKwave hello_world.cv64a6_imafdc_sv39.vcd
+ 1244  GTKWAVE hello_world.cv64a6_imafdc_sv39.vcd
+ 1245  gtkwave.exe hello_world.cv64a6_imafdc_sv39.vcd
+ 1246  cd ~/thesis/cva6/
+ 1247  ls
+ 1248  cd /home/artemi/thesis/cva6/verif/sim/out_2024-12-06/directed_c_tests
+ 1249  ls
+ 1250  ls -l
+ 1251  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1252  ./a.out 
+ 1253  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1254  ./a.out 
+ 1255  gcc matrix_mult_v1.c 
+ 1256  ./a.out 
+ 1257  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1258  ./a.out 
+ 1259  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1260  ./a.out 
+ 1261  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1262  ./a.out 
+ 1263  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1264  ./a.out 
+ 1265  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1266  ./a.out 
+ 1267  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1268  ./a.out 
+ 1269  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1270  ./a.out 
+ 1271  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1272  ./a.out 
+ 1273  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1274  ./a.out 
+ 1275  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1276  ./a.out 
+ 1277  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1278  ./a.out 
+ 1279  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1280  ./a.out 
+ 1281  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1282  ./a.out 
+ 1283  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1284  ./a.out 
+ 1285  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1286  ./a.out 
+ 1287  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1288  ./a.out 
+ 1289  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1290  ./a.out 
+ 1291  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1292  ./a.out 
+ 1293  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1294  ./a.out 
+ 1295  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1296  ./a.out 
+ 1297  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1298  ./a.out 
+ 1299  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1300  ./a.out 
+ 1301  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1302  ./a.out 
+ 1303  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1304  ./a.out 
+ 1305  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1306  ./a.out 
+ 1307  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1308  ./a.out 
+ 1309  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1310  ./a.out 
+ 1311  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1312  ./a.out 
+ 1313  ls
+ 1314  cd thesis
+ 1315  ls
+ 1316  cd cva6/
+ 1317  ls
+ 1318  cat runme.sh 
+ 1319  history
+ 1320  cd thesis
+ 1321  ls
+ 1322  cd cva6/
+ 1323  ls
+ 1324  cd util/
+ 1325  ls
+ 1326  cd ..
+ 1327  cd config
+ 1328  ls
+ 1329  cd ..
+ 1330  ls
+ 1331  cd util/
+ 1332  ls
+ 1333  cd .. 
+ 1334  cd verif/
+ 1335  ls
+ 1336  cd sim/
+ 1337  ls
+ 1338  cd ..
+ 1339  cd sim/
+ 1340  ls
+ 1341  cd ..
+ 1342  ls
+ 1343  cat runme.sh
+ 1344  ./runme.sh
+ 1345  chmod +x runme.sh 
+ 1346  ./runme.sh 
+ 1347  ls
+ 1348  ./runme.sh 
+ 1349  ls
+ 1350  cd thesis
+ 1351  ls
+ 1352  cd cva6/
+ 1353  ls
+ 1354  cat runme.sh 
+ 1355  cd thesis
+ 1356  cd cva6
+ 1357  ls
+ 1358  cat runme.sh 
+ 1359  ./runme.sh 
+ 1360  cd thesis
+ 1361  cd r
+ 1362  cd RISCV/
+ 1363  ls
+ 1364  cd bin/
+ 1365  ls
+ 1366  pwd
+ 1367  cd thesis/cva6/
+ 1368  cat runme.sh 
+ 1369  ./runme.sh 
+ 1370  ls
+ 1371  nano runme.sh 
+ 1372  ./runme.sh 
+ 1373  nano runme.sh 
+ 1374  cat runme.sh 
+ 1375  ../r
+ 1376  ls
+ 1377  cd thesis/cva6/
+ 1378  ls
+ 1379  ./runme.sh 
+ 1380  cat runme.sh 
+ 1381  cat runme.sh cat runme.sh 
+ 1382  git status
+ 1383  gitk
+ 1384  sudo apt install gitk
+ 1385  gitk
+ 1386  sudo apt install gitk --fix-missing 
+ 1387  gitk
+ 1388  sudo apt install 
+ 1389  git status
+ 1390  git remote -v
+ 1391  git branch
+ 1392  history
+ 1393  git push -u origin main
+ 1394  git branch old-main
+ 1395  ls
+ 1396  git status
+ 1397  git remote -v
+ 1398  git branch
+ 1399  git switch old-main
+ 1400  git status
+ 1401  git remote -v
+ 1402  git remote
+ 1403  git push -u origin old-main
+ 1404  git branch
+ 1405  git status
+ 1406  git branch
+ 1407  git branches
+ 1408  git branch
+ 1409  git status
+ 1410  git add runme.sh 
+ 1411  git add core/cvxif_example/copro_alu.sv core/cvxif_example/cvxif_example_coprocessor.sv core/include/cv64a6_imafdc_sv39_config_pkg.sv core/include/cv64a6_mmu_config_pkg.sv verif/sim/cva6.py verif/tests/custom/cv_xif/cvxif_add_nop.S verif/tests/custom/cv_xif/cvxif_macros.h verif/tests/custom/cv_xif/cvxif_rs3.S
+ 1412  git status
+ 1413  git commit -m "My changes"
+ 1414  git push
+ 1415  git switch main
+ 1416  git status
+ 1417  git remote -v
+ 1418  git fetch old-origin
+ 1419  git staus
+ 1420  git status
+ 1421  git fetch old-origin
+ 1422  git checkout old-main
+ 1423  git branch
+ 1424  git remote -v
+ 1425  git branch
+ 1426  git checkout main
+ 1427  git status
+ 1428  git fetch old-remote
+ 1429  git remote -v
+ 1430  git fetch old-origin
+ 1431  git status
+ 1432  git log
+ 1433  git checkout old-main
+ 1434  git status
+ 1435  git fetch old-origin
+ 1436  git status
+ 1437  git checkout main
+ 1438  git fetch old-origin
+ 1439  git status
+ 1440  git log old-origin/main
+ 1441  git log old-origin/master
+ 1442  git fetch old-origin/master
+ 1443  git status
+ 1444  git fetch old-origin/master
+ 1445  git fetch old-origin
+ 1446  git checkout master
+ 1447  git fetch old-origin
+ 1448  git fetch origin
+ 1449  git checkout main
+ 1450  git checkout old-main
+ 1451  git fetch old-origin
+ 1452  git checkout master
+ 1453  git status
+ 1454  git remote -v
+ 1455  git fetch origin
+ 1456  git checkout old-main
+ 1457  git status
+ 1458  git log
+ 1459  pwd
+ 1460  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1461  ls
+ 1462  ./a.out 
+ 1463  git status
+ 1464  git commit -m "Suggested changes from professor"
+ 1465  ls
+ 1466  git status
+ 1467  git add matrix_mult_v1.c 
+ 1468  git status
+ 1469  git commit -m "Suggested changes from professor"
+ 1470  git push
+ 1471  git checkout 8d06276273320a1c5609fe3bad14ced4137bd2d7
+ 1472  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1473  ./a.out 
+ 1474  gcc -pedantic -Wall matrix_mult_v1.c 
+ 1475  ./a.out 
+ 1476  cd /home/artemi/thesis/cva6/verif/sim/out_2024-12-13/veri-testharness_sim/
+ 1477  ls
+ 1478  cd ..
+ 1479  ls
+ 1480  cd directed_c_tests/
+ 1481  ls
+ 1482  ls -l
+ 1483  cd ..
+ 1484  ls
+ 1485  cd ..
+ 1486  ls
+ 1487  cd out
+ 1488  cd out_2024-12-06
+ 1489  ls
+ 1490  cd veri-testharness_sim/
+ 1491  ls
+ 1492  cd ..
+ 1493  ls
+ 1494  cd out_2024-12-13
+ 1495  ls
+ 1496  cd veri-testharness_sim/
+ 1497  ls
+ 1498  ls -l
+ 1499  ls -al
+ 1500  ls
+ 1501  gtkwave.exe hello_world.cv64a6_imafdc_sv39.vcd
+ 1502  cd ..
+ 1503  ls
+ 1504  cd directed_c_tests/
+ 1505  ls
+ 1506  ls -al
+ 1507  /home/artemi/thesis/RISCV/bin/riscv-none-elf-objdump -help
+ 1508  /home/artemi/thesis/RISCV/bin/riscv-none-elf-objdump --help
+ 1509  /home/artemi/thesis/RISCV/bin/riscv-none-elf-objdump -S hello_world.bin
+ 1510  /home/artemi/thesis/RISCV/bin/riscv-none-elf-objdump -S hello_world.o
+ 1511  ls -al
+ 1512  ls
+ 1513  cd ..
+ 1514  ls
+ 1515  cd veri-testharness_sim/
+ 1516  ls
+ 1517  ls -al
+ 1518  cat matrix_mult_v1.cv64a6_imafdc_sv39.log.iss 
+ 1519  cd thesis/cva6/
+ 1520  ls
+ 1521  car runme.sh 
+ 1522  cat runme.sh 
+ 1523  nano runme.sh 
+ 1524  ./runme.sh 
+ 1525  nano runme.sh 
+ 1526  ./runme.sh 
+ 1527  nano runme.sh 
+ 1528  ./runme.sh 
+ 1529  nano runme.sh 
+ 1530  ./runme.sh 
+ 1531  nano runme.sh 
+ 1532  ./runme.sh 
+ 1533  cat runme.sh 
+ 1534  nano runme.sh 
+ 1535  ./runme.sh 
+ 1536  ls
+ 1537  cd thesis/cva6/
+ 1538  ls
+ 1539  nano runme.sh 
+ 1540  ./runme.sh 
+ 1541  nano runme.sh 
+ 1542  ./runme.sh 
+ 1543  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1544  ./a.out 
+ 1545  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1546  ./a.out 
+ 1547  cd thesis
+ 1548  cd cva6/
+ 1549  ls
+ 1550  ./runme.sh 
+ 1551  cd thesis
+ 1552  cd cva6/
+ 1553  ls
+ 1554  ./runme.sh 
+ 1555  nano runme.sh 
+ 1556  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1557  ./a.out 
+ 1558  cd cv
+ 1559  cd thesis
+ 1560  cd cva6/
+ 1561  ./runme.sh 
+ 1562  ls
+ 1563  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1564  ./a.out 
+ 1565  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1566  ./a.out 
+ 1567  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1568  ./a.out 
+ 1569  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1570  ./a.out 
+ 1571  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1572  ./a.out 
+ 1573  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1574  ./a.out 
+ 1575  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1576  ./a.out 
+ 1577  ls
+ 1578  cd th
+ 1579  cd thesis
+ 1580  cd cva6/
+ 1581  ls
+ 1582  ./runme.sh 
+ 1583  nano runme.sh 
+ 1584  ./runme.sh 
+ 1585  nano runme.sh 
+ 1586  ./runme.sh 
+ 1587  cat runme.sh 
+ 1588  ./runme.sh 
+ 1589  status
+ 1590  git status
+ 1591  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1592  ./a.out 
+ 1593  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1594  ./a.out 
+ 1595  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1596  ./a.out 
+ 1597  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1598  ./a.out 
+ 1599  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1600  ./a.out 
+ 1601  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1602  ./a.out 
+ 1603  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1604  ./a.out 
+ 1605  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1606  ./a.out 
+ 1607  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1608  ./a.out 
+ 1609  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1610  ./a.out 
+ 1611  git status
+ 1612  git log
+ 1613  git diff 8d0627
+ 1614  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1615  ./a.out 
+ 1616  git status
+ 1617  git add matrix_mult_v1.c 
+ 1618  git commit -m "Found what prevented CVA6 simulation(prints when prinitng the matrix)"
+ 1619  git push
+ 1620  git remote -v
+ 1621  git push origin main
+ 1622  git status
+ 1623  git checkout main
+ 1624  git status
+ 1625  git push
+ 1626  git push origin main
+ 1627  git add matrix_mult_v1.c 
+ 1628  git status
+ 1629  git log
+ 1630  git diff 8d0627
+ 1631  git add matrix_mult_v1.c 
+ 1632  git commit -m "Found BUG: preventing CVA6 simulation (prints when printing final matrix)"
+ 1633  git push
+ 1634  git diff cee20b890e5fb3a389c220e22ba4adb525823cf6
+ 1635  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1636  ./a.out 
+ 1637  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1638  ./a.out 
+ 1639  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1640  ./a.out 
+ 1641  git status
+ 1642  git add matrix_mult_v1.c 
+ 1643  git commit -m "Working CVA6 simulation with professor suggestions"
+ 1644  git push
+ 1645  jupyter-book -help\
+ 1646  jupyter-book -help
+ 1647  jupyter-book --\help
+ 1648  jupyter-book --help
+ 1649  ls
+ 1650  cd Jupyter/
+ 1651  ls
+ 1652  cd Classical_Crypto/
+ 1653  jupyter lab
+ 1654  git status
+ 1655  ls
+ 1656  git status
+ 1657  /home/artemi/thesis/cva6/verif/sim/out_2025-01-26/veri-testharness_sim/
+ 1658  cd /home/artemi/thesis/cva6/verif/sim/out_2025-01-26/veri-testharness_sim/
+ 1659  cat hello_world.cv64a6_imafdc_sv39.log.iss 
+ 1660  cd /home/artemi/thesis/cva6/verif/sim/out_2025-01-26/veri-testharness_sim/
+ 1661  cat hello_world.cv64a6_imafdc_sv39.log.iss 
+ 1662  ls
+ 1663  cat hello_world.cv64a6_imafdc_sv39.log.iss 
+ 1664  ls
+ 1665  cd ..
+ 1666  ls
+ 1667  cd ver
+ 1668  ls
+ 1669  cd veri-testharness_sim/
+ 1670  ls
+ 1671  cd ..
+ 1672  ls
+ 1673  cd out_2025-01-27
+ 1674  ls
+ 1675  cd veri-testharness_sim/
+ 1676  ls
+ 1677  cat hello_world.cv64a6_imafdc_sv39.log.iss 
+ 1678  pwd
+ 1679  htop
+ 1680  ip config
+ 1681  ip
+ 1682  ip address
+ 1683  curl ifconfig.me
+ 1684  if config
+ 1685  ifconfig
+ 1686  hostname
+ 1687  hostname -I
+ 1688  ping google.com
+ 1689  traceroute google.com
+ 1690  tcpdump -i eth0
+ 1691  ifocnfig
+ 1692  ifconfig
+ 1693  sudo tcpdump -i eth0
+ 1694  traceroute google.com
+ 1695  ls
+ 1696  cd thesis
+ 1697  ls
+ 1698  cd cva6/
+ 1699  ls
+ 1700  cat runme.sh 
+ 1701  ls
+ 1702  cd verif/
+ 1703  ls
+ 1704  cat regress/
+ 1705  cd ..
+ 1706  ls
+ 1707  cat runme.sh 
+ 1708  ls
+ 1709  nano runme.sh 
+ 1710  ./runme.sh 
+ 1711  ls
+ 1712  gtkwave.exe cvxif_Accelerator.cv64a6_imafdc_sv39.gtkw 
+ 1713  git status
+ 1714  ls
+ 1715  gcc -ansi -pedantic -Werror matrix_mult_v1.c 
+ 1716  gcc -ansi -pedantic matrix_mult_v1.c 
+ 1717  gcc -ansi -Werror matrix_mult_v1.c 
+ 1718  gcc -pedantic -Werror matrix_mult_v1.c 
+ 1719  gcc -Werror matrix_mult_v1.c 
+ 1720  ./a.out 
+ 1721  gcc -Werror matrix_mult_v1.c 
+ 1722  ./a.out 
+ 1723  gcc -ansi matrix_mult_v1.c 
+ 1724  gcc -pedantic matrix_mult_v1.c 
+ 1725  ./a.out 
+ 1726  gcc -pedantic matrix_mult_v1.c 
+ 1727  ./a.out 
+ 1728  gcc -pedantic matrix_mult_v1.c 
+ 1729  ./a.out 
+ 1730  gcc -pedantic matrix_mult_v1.c 
+ 1731  ./a.out 
+ 1732  gcc -pedantic matrix_mult_v1.c 
+ 1733  ./a.out 
+ 1734  gcc -pedantic matrix_mult_v1.c 
+ 1735  ./a.out 
+ 1736  cd thesis
+ 1737  cd cva6/
+ 1738  cd verif/
+ 1739  ls
+ 1740  cd t
+ 1741  cd tests/
+ 1742  ls
+ 1743  cd custom
+ 1744  ls
+ 1745  cd cv_xif/
+ 1746  ls
+ 1747  ls
+ 1748  cd ..
+ 1749  ls
+ 1750  cd asm_tests/
+ 1751  ls
+ 1752  cd..
+ 1753  cd ..
+ 1754  ls
+ 1755  cd veri-testharness_sim/
+ 1756  ls
+ 1757  gtkwave cvxif_Accelerator.cv64a6_imafdc_sv39.vcd
+ 1758  gtkwave.exe cvxif_Accelerator.cv64a6_imafdc_sv39.vcd
+ 1759  cd thesis
+ 1760  cd RISCV/
+ 1761  ls
+ 1762  cd bin
+ 1763  ls
+ 1764  cd /home/artemi/thesis/cva6/verif/sim/out_2025-01-28/veri-testharness_sim/
+ 1765  ls
+ 1766  code . matrix_mult_v1.cv64a6_imafdc_sv39.log.iss
+ 1767  cd ver
+ 1768  cd thesis
+ 1769  cd cva6/
+ 1770  cd verif/\
+ 1771  cd verif/
+ 1772  ls
+ 1773  cd sim/
+ 1774  ls
+ 1775  cd out_2025-01-27
+ 1776  ls
+ 1777  cd asm_tests/
+ 1778  ls
+ 1779  cd ..
+ 1780  cd veri-testharness_sim/
+ 1781  ls
+ 1782  cd ..
+ 1783  ls
+ 1784  cd dir
+ 1785  cd directed_c
+ 1786  ls
+ 1787  cd directed_c_tests/
+ 1788  ls
+ 1789  cd ..
+ 1790  cd directed_asm_tests/
+ 1791  ls
+ 1792  riscv-none-elf-objdump cvxif_Accelerator.o
+ 1793  ~/thesis/RISCV/bin/riscv-none-elf-objdump cvxif_Accelerator.o
+ 1794  ls
+ 1795  ~/thesis/RISCV/bin/riscv-none-elf-objdump cvxif_Accelerator.bin
+ 1796  ~/thesis/RISCV/bin/riscv-none-elf-objdump cvxif_Accelerator.bin -S
+ 1797  ~/thesis/RISCV/bin/riscv-none-elf-objdump cvxif_Accelerator.o -S
+ 1798  ~/thesis/RISCV/bin/riscv-none-elf-objdump cvxif_Accelerator.o -S > test.c
+ 1799  ls
+ 1800  code . test.c
+ 1801  rm test.c
+ 1802  ~/thesis/RISCV/bin/riscv-none-elf-objdump cvxif_Accelerator.o -S > test.asm
+ 1803  code . test.asm
+ 1804  ls
+ 1805  git status
+ 1806  ls
+ 1807  cd thesis
+ 1808  cd cva6/
+ 1809  ls
+ 1810  cat runme.sh 
+ 1811  nano runme.sh 
+ 1812  ./runme.sh 
+ 1813  nano runme.sh 
+ 1814  ./runme.sh 
+ 1815  nano runme.sh 
+ 1816  ./runme.sh 
+ 1817  cat runme.sh 
+ 1818  nano runme.sh 
+ 1819  ./runme.sh 
+ 1820  nano runme.sh 
+ 1821  ./runme.sh 
+ 1822  nano runme.sh 
+ 1823  ./runme.sh 
+ 1824  nano runme.sh 
+ 1825  ./runme.sh 
+ 1826  cd thesis/cva6/
+ 1827  ls
+ 1828  ./runme.sh 
+ 1829  cat runme.sh 
+ 1830  pwd
+ 1831  cd ..
+ 1832  ls
+ 1833  cd ..
+ 1834  ls
+ 1835  cd out_2025-01-27
+ 1836  ls
+ 1837  cd veri-testharness_sim/
+ 1838  ls
+ 1839  cd thesis
+ 1840  cd cva6/
+ 1841  ls
+ 1842  ./runme.sh 
+ 1843  cd thesis/cva6/
+ 1844  ./runme.sh 
+ 1845  cd thesis/cva6/
+ 1846  ./runme.sh 
+ 1847  ls -l
+ 1848  ls
+ 1849  cd thesis/cva6/
+ 1850  ls
+ 1851  nano runme.sh 
+ 1852  ./runme.sh 
+ 1853  cd thesis
+ 1854  cd cva6/
+ 1855  ./runme.sh 
+ 1856  code . runme.sh 
+ 1857  ./runme.sh 
+ 1858  cd thesis
+ 1859  cd cva6/
+ 1860  ./runme.sh 
+ 1861  cd thesis
+ 1862  cd cva6/
+ 1863  ls
+ 1864  ./runme.sh 
+ 1865  cd thesis/cva6/
+ 1866  ./runme.sh 
+ 1867  cd thesis/cva6/
+ 1868  ./runme.sh 
+ 1869  cd thesis/cva6/
+ 1870  ./runme.sh 
+ 1871  cd thesis/cva6/
+ 1872  ./runme.sh 
+ 1873  cd thesis/cva6/
+ 1874  ./runme.sh 
+ 1875  ./runme.sh
+ 1876  cs thesis
+ 1877  cd thesis
+ 1878  cd cva6/
+ 1879  ./runme.sh 
+ 1880  cd thesis
+ 1881  cd cva6/
+ 1882  ./runme.sh 
+ 1883  cd thesis/cva6/
+ 1884  ./runme.sh 
+ 1885  ls -l
+ 1886  cd thesis
+ 1887  cd cva6/
+ 1888  ./runme.sh 
+ 1889  cd thesis
+ 1890  cd cva6/
+ 1891  ./runme.sh 
+ 1892  cd thesis/cva6/
+ 1893  ./runme.sh 
+ 1894  htop
+ 1895  ./r
+ 1896  cd thesis
+ 1897  cd cva6/
+ 1898  ./runme.sh 
+ 1899  htoop
+ 1900  htop
+ 1901  df
+ 1902  htop
+ 1903  cd thesis
+ 1904  cd cva6/
+ 1905  ./runme.sh 
+ 1906  cd cva6/
+ 1907  ./runme.sh 
+ 1908  cd thesis/cva6/
+ 1909  ./runme.sh 
+ 1910  ls -l
+ 1911  ls -lh
+ 1912  ls -l
+ 1913  cd thesis
+ 1914  cd cva6/
+ 1915  ./runme.sh 
+ 1916  verilator --lint-only /home/artemi/thesis/cva6/core/include/cvxif_types.svh
+ 1917  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh
+ 1918  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh /home/artemi/thesis/cva6/core/cvxif_example/cvxif_example_coprocessor.sv
+ 1919  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh /home/artemi/thesis/cva6/core/cvxif_example/cvxif_example_coprocessor.sv /home/artemi/thesis/cva6/core/cvxif_example/include/cvxif_instr_pkg.sv
+ 1920  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh /home/artemi/thesis/cva6/core/cvxif_example/cvxif_example_coprocessor.sv
+ 1921  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh /home/artemi/thesis/cva6/core/cvxif_example/include/cvxif_instr_pkg.sv /home/artemi/thesis/cva6/core/cvxif_example/cvxif_example_coprocessor.sv
+ 1922  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh /home/artemi/thesis/cva6/core/cvxif_example/include/cvxif_instr_pkg.sv /home/artemi/thesis/cva6/core/cvxif_example/compressed_instr_decoder.sv /home/artemi/thesis/cva6/core/cvxif_example/cvxif_example_coprocessor.sv
+ 1923  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh /home/artemi/thesis/cva6/core/cvxif_example/include/cvxif_instr_pkg.sv /home/artemi/thesis/cva6/core/cvxif_example/compressed_instr_decoder.sv /home/artemi/thesis/cva6/core/cvxif_example/copro_alu.sv /home/artemi/thesis/cva6/core/cvxif_example/cvxif_example_coprocessor.sv
+ 1924  verilator --lint-only -I/home/artemi/thesis/cva6/core/include/cvxif_types.svh /home/artemi/thesis/cva6/core/cvxif_example/include/cvxif_instr_pkg.sv /home/artemi/thesis/cva6/core/cvxif_example/compressed_instr_decoder.sv /home/artemi/thesis/cva6/core/cvxif_example/copro_alu.sv /home/artemi/thesis/cva6/core/cvxif_example/instr_decoder.sv /home/artemi/thesis/cva6/core/cvxif_example/cvxif_example_coprocessor.sv
+ 1925  ./runme.sh 
+ 1926  nano runme.sh 
+ 1927  grep -r "-j" *
+ 1928  grep -r "/-j" *
+ 1929  grep -r "\-j" *
+ 1930  grep -r "\-j" * |grep -i make
+ 1931  ls -la
+ 1932  cd tools/
+ 1933  L ls -al
+ 1934  l
+ 1935  cd verilator-v5.008/
+ 1936  l
+ 1937  cd ..
+ 1938  l
+ 1939  cd verilator
+ 1940  l
+ 1941  cd ..
+ 1942  l
+ 1943  cd ..
+ 1944  l
+ 1945  vi runme.sh 
+ 1946  cd verif/
+ 1947  l
+ 1948  cd sim/
+ 1949  l
+ 1950  grep -r "\-j" *
+ 1951  vi cva6.py 
+ 1952  grep make *
+ 1953  result_n    = '0;
+ 1954      hartid_n    = hartid_i;
+ 1955      id_n        = id_i;
+ 1956      valid_n     = '0;
+ 1957  grep -i cpus
+ 1958  grep -i cpus *
+ 1959  grep -i ncpus *
+ 1960  grep -i cpu *
+ 1961  grep -r -i cpu *
+ 1962  grep -r -i  *
+ 1963  grep -r "\-j" * |more
+ 1964  grep -r "\-j" * |grep -v docs
+ 1965  grep -r "\-j" * |grep -v docs |grep -v vcd
+ 1966  grep -r -i "nproc" * |grep -v docs |grep -v vcd
+ 1967  l
+ 1968  cd out_2025-01-29/
+ 1969  l
+ 1970  cd veri-testharness_sim/
+ 1971  l
+ 1972  cd ..
+ 1973  l
+ 1974  cd ..
+ 1975  l
+ 1976  nano Makefile 
+ 1977  vi Makefile 
+ 1978  find . -name '*.in'
+ 1979  find . -name '*ake*'
+ 1980  cd ..
+ 1981  find . -name '*ake*'
+ 1982  result_n    = '0;
+ 1983      hartid_n    = hartid_i;
+ 1984      id_n        = id_i;
+ 1985      valid_n     = '0;
+ 1986  find . -name '*veri*'
+ 1987  ls -la
+ 1988  cd ..
+ 1989  l
+ 1990  cd verif/sim/
+ 1991  l
+ 1992  grep -r -i JOB *
+ 1993  grep -r JOB *
+ 1994  cd ..
+ 1995  grep -r JOB *
+ 1996  export NUM_JOBS=4
+ 1997  echo $NUM_JOBS 
+ 1998  ./runme.sh 
+ 1999  htop
+ 2000  cd thesis
+ 2001  cd cva6/
+ 2002  ls
+ 2003  ./runme.sh 
+ 2004  echo NUM_JOBS
+ 2005  echo $NUM_JOBS
+ 2006  NUM_JOBS 
+ 2007  NUM_JOBS 4
+ 2008  $NUM_JOBS 4
+ 2009  export NUM_JOBS=4
+ 2010  echo $NUM_JOBS
+ 2011  ./runme.sh 
+ 2012  cat runme.sh 
+ 2013  ./runme.sh 
+ 2014  history > history.txt

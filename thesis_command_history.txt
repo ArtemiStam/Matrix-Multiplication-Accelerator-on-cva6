@@ -1,0 +1,1000 @@
+ 1010  ls -l
+ 1011  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1012  ls
+ 1013  ls -l
+ 1014  cd thesis
+ 1015  cd cva6/
+ 1016  ls
+ 1017  cd veer
+ 1018  cd verif/
+ 1019  ls
+ 1020  cd sim/
+ 1021  ls
+ 1022  cd out_2025-02-07
+ 1023  ls
+ 1024  cd veri-testharness_sim/
+ 1025  ls
+ 1026  gtkwave.exe matrix_mult_v1.cv64a6_imafdc_sv39.gktw
+ 1027  ls
+ 1028  ls -l
+ 1029  cd ..
+ 1030  ls
+ 1031  cd ..
+ 1032  ls
+ 1033  cd out_2025-02-06
+ 1034  ls
+ 1035  cd veri-testharness_sim/
+ 1036  ls
+ 1037  cd ..
+ 1038  ls
+ 1039  cd out_2025-02-08
+ 1040  ls
+ 1041  cd veri-testharness_sim/
+ 1042  ls
+ 1043  gtkwave.exe matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1044  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1045  ls -l
+ 1046  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1047  ls -l
+ 1048  git status
+ 1049  git add matrix_mult_v1.c sparse_matrix_generator.py sparse_matrix_generator_backup.py matrix_mult.c dataset1.h 
+ 1050  git commit -m "Sparse matrix generator & New version of multiplication"
+ 1051  git push
+ 1052  git status
+ 1053  git add matrix_mult.c 
+ 1054  git commit -m "Changes for little endian version"
+ 1055  ls
+ 1056  cd out_2025-02-08
+ 1057  ls
+ 1058  cd directed_c_tests/
+ 1059  ls -l
+ 1060  riscv-none-elf-objdump -S matrix_mult_v1.o > v1.asm
+ 1061  code v1.asm 
+ 1062  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1063  ls -l
+ 1064  rm asm.asm 
+ 1065  ls -l
+ 1066  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1067  ls -l
+ 1068  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1069  ls -l
+ 1070  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1071  code asem.asm 
+ 1072  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1073  cd thesis/cva6/verif/sim/out_2025-02-08/veri-testharness_sim
+ 1074  ls -l
+ 1075  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1076  cd thesis
+ 1077  cd cva6/
+ 1078  cd verif/
+ 1079  cd sim/
+ 1080  ls
+ 1081  cd out_2025-02-08
+ 1082  ls
+ 1083  cd veri-testharness_sim/
+ 1084  ls -l
+ 1085  gtkwave.exe matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1086  cd thesis
+ 1087  cd cv
+ 1088  cd cva6/
+ 1089  ls
+ 1090  cat runme.sh 
+ 1091  ./runme.sh 
+ 1092  cat runme.sh 
+ 1093  nano runme.sh 
+ 1094  ./runme.sh 
+ 1095  nano runme.sh 
+ 1096  ./r/
+ 1097  ./runme.sh 
+ 1098  cat runme.sh 
+ 1099  ./runme.sh 
+ 1100  cat runme.sh 
+ 1101  ./runme.sh 
+ 1102  nano runme.sh 
+ 1103  ./runme.sh 
+ 1104  nano runme.sh 
+ 1105  ./runme.sh 
+ 1106  gcc -Wall pednatic matrix_mult_v1.c 
+ 1107  gcc -Wall pedantic matrix_mult_v1.c 
+ 1108  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1109  ./a.out 
+ 1110  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1111  ./a.out 
+ 1112  gcc -Wall -pedantic matrix_mult.c 
+ 1113  ./a.out 
+ 1114  python3 sparse_matrix_generator.py 
+ 1115  python3 sparse_matrix_generator.py 8 8 8 2
+ 1116  gcc -Wall -pedantic matrix_mult.c 
+ 1117  ./a.out 
+ 1118  python3 sparse_matrix_generator.py 8 4 8 2
+ 1119  gcc -Wall -pedantic matrix_mult.c 
+ 1120  ./a.out 
+ 1121  gcc -Wall -pedantic matrix_mult.c 
+ 1122  ./a.out 
+ 1123  python3 sparse_matrix_generator.py 8 4 8 2
+ 1124  gcc -Wall -pedantic matrix_mult.c 
+ 1125  ./a.out 
+ 1126  python3 sparse_matrix_generator.py 16 4 8 2
+ 1127  ./a.out 
+ 1128  gcc -Wall -pedantic matrix_mult.c 
+ 1129  ./a.out 
+ 1130  python3 sparse_matrix_generator.py 16 20 8 2
+ 1131  gcc -Wall -pedantic matrix_mult.c 
+ 1132  ./a.out 
+ 1133  python3 sparse_matrix_generator.py 16 20 8 2
+ 1134  gcc -Wall -pedantic matrix_mult.c 
+ 1135  ./a.out 
+ 1136  python3 sparse_matrix_generator.py 16 20 8 2
+ 1137  gcc -Wall -pedantic matrix_mult.c 
+ 1138  python3 sparse_matrix_generator.py 16 20 8 2
+ 1139  gcc -Wall -pedantic matrix_mult.c 
+ 1140  ./a.out 
+ 1141  python3 sparse_matrix_generator.py 16 20 16 2
+ 1142  gcc -Wall -pedantic matrix_mult.c 
+ 1143  ./a.out 
+ 1144  gcc -Wall -pedantic matrix_mult.c 
+ 1145  ./a.out 
+ 1146  gcc -Wall -pedantic matrix_mult.c 
+ 1147  ./a.out 
+ 1148  git status
+ 1149  gcc -Wall -pedantic matrix_mult.c 
+ 1150  ./a.out 
+ 1151  gcc -Wall -pedantic matrix_mult.c 
+ 1152  ./a.out 
+ 1153  gcc -Wall -pedantic matrix_mult.c 
+ 1154  ./a.out 
+ 1155  gcc -Wall -pedantic matrix_mult.c 
+ 1156  ./a.out 
+ 1157  gcc -Wall -pedantic matrix_mult.c 
+ 1158  ./a.out 
+ 1159  python3 sparse_matrix_generator.py 8 4 8 2
+ 1160  python3 multi.py 
+ 1161  python3 sparse_matrix_generator.py 8 4 8 2
+ 1162  gcc -Wall -pedantic matrix_mult.c 
+ 1163  ./a.out 
+ 1164  gcc -Wall -pedantic matrix_mult.c 
+ 1165  ./a.out 
+ 1166  gcc -Wall -pedantic matrix_mult.c 
+ 1167  ./a.out 
+ 1168  gcc -Wall -pedantic matrix_mult.c 
+ 1169  ./a.out 
+ 1170  gcc -Wall -pedantic matrix_mult.c 
+ 1171  ./a.out 
+ 1172  gcc -Wall -pedantic matrix_mult.c 
+ 1173  ./a.out 
+ 1174  gcc -Wall -pedantic matrix_mult.c 
+ 1175  ./a.out 
+ 1176  gcc -Wall -pedantic matrix_mult.c 
+ 1177  ./a.out 
+ 1178  gcc -Wall -pedantic matrix_mult.c 
+ 1179  ./a.out 
+ 1180  gcc -Wall -pedantic matrix_mult.c 
+ 1181  ./a.out 
+ 1182  gcc -Wall -pedantic matrix_mult.c 
+ 1183  ./a.out 
+ 1184  gcc -Wall -pedantic matrix_mult.c 
+ 1185  ./a.out 
+ 1186  gcc -Wall -pedantic matrix_mult.c 
+ 1187  ./a.out 
+ 1188  gcc -Wall -pedantic matrix_mult.c 
+ 1189  ./a.out 
+ 1190  gcc -Wall -pedantic matrix_mult.c 
+ 1191  ./a.out 
+ 1192  gcc -Wall -pedantic matrix_mult.c 
+ 1193  ./a.out 
+ 1194  gcc -Wall -pedantic matrix_mult.c 
+ 1195  ./a.out 
+ 1196  gcc -Wall -pedantic matrix_mult.c 
+ 1197  ./a.out 
+ 1198  gcc -Wall -pedantic matrix_mult.c 
+ 1199  ./a.out 
+ 1200  gcc -Wall -pedantic matrix_mult.c 
+ 1201  ./a.out 
+ 1202  gcc -Wall -pedantic matrix_mult.c 
+ 1203  ./a.out 
+ 1204  gcc -Wall -pedantic matrix_mult.c 
+ 1205  ./a.out 
+ 1206  gcc -Wall -pedantic matrix_mult.c 
+ 1207  ./a.out 
+ 1208  gcc -Wall -pedantic matrix_mult.c 
+ 1209  ./a.out 
+ 1210  gcc -Wall -pedantic matrix_mult.c 
+ 1211  ./a.out 
+ 1212  gcc -Wall -pedantic matrix_mult.c 
+ 1213  ./a.out 
+ 1214  gcc -Wall -pedantic matrix_mult.c 
+ 1215  ./a.out 
+ 1216  gcc -Wall -pedantic matrix_mult.c 
+ 1217  ./a.out 
+ 1218  gcc -Wall -pedantic matrix_mult.c 
+ 1219  ./a.out 
+ 1220  gcc -Wall -pedantic matrix_mult.c 
+ 1221  ./a.out 
+ 1222  gcc -Wall -pedantic matrix_mult.c 
+ 1223  ./a.out 
+ 1224  python3 sparse_matrix_generator.py 8 4 8 2
+ 1225  gcc -Wall -pedantic matrix_mult.c 
+ 1226  python3 sparse_matrix_generator.py 8 4 8 2
+ 1227  gcc -Wall -pedantic matrix_mult.c 
+ 1228  ./a.out 
+ 1229  python3 sparse_matrix_generator.py 8 8 8 2
+ 1230  gcc -Wall -pedantic matrix_mult.c 
+ 1231  python3 sparse_matrix_generator.py 8 8 8 2
+ 1232  gcc -Wall -pedantic matrix_mult.c 
+ 1233  ./a.out 
+ 1234  gcc -Wall -pedantic matrix_mult.c 
+ 1235  ./a.out 
+ 1236  python3 sparse_matrix_generator.py 8 8 8 2
+ 1237  gcc -Wall -pedantic matrix_mult.c 
+ 1238  ./a.out 
+ 1239  python3 sparse_matrix_generator.py 8 8 8 2
+ 1240  gcc -Wall -pedantic matrix_mult.c 
+ 1241  python3 sparse_matrix_generator.py 8 8 8 2
+ 1242  gcc -Wall -pedantic matrix_mult.c 
+ 1243  ./a.out 
+ 1244  gcc -Wall -pedantic matrix_mult.c 
+ 1245  ./a.out 
+ 1246  python3 sparse_matrix_generator.py 8 8 8 2
+ 1247  gcc -Wall -pedantic matrix_mult.c 
+ 1248  ./a.out 
+ 1249  gcc -Wall -pedantic matrix_mult.c 
+ 1250  ./a.out 
+ 1251  python3 sparse_matrix_generator.py 8 8 8 2
+ 1252  gcc -Wall -pedantic matrix_mult.c 
+ 1253  ./a.out 
+ 1254  python3 sparse_matrix_generator.py 8 8 8 2
+ 1255  gcc -Wall -pedantic matrix_mult.c 
+ 1256  ./a.out 
+ 1257  python3 sparse_matrix_generator.py 4 4 4 2
+ 1258  gcc -Wall -pedantic matrix_mult.c 
+ 1259  python3 multi.py 
+ 1260  python3 sparse_matrix_generator.py 8 4 8 2
+ 1261  python3 multi.py 
+ 1262  python3 sparse_matrix_generator.py 8 8 8 2
+ 1263  python3 multi.py 
+ 1264  git status
+ 1265  git add matrix_mult.c multi.py 
+ 1266  git commit
+ 1267  python3 sparse_matrix_generator.py 8 4 4 2
+ 1268  python3 multi.py 
+ 1269  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1270  ./a`
+ 1271  ./a.out 
+ 1272  ./a`
+ 1273  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1274  ./a.out 
+ 1275  gcc -Wall -pedantic matrix_mult_v1.c 
+ 1276  ./a.out 
+ 1277  python3 sparse_matrix_generator.py 8 4 8 2
+ 1278  python3 multi.py 
+ 1279  python3 sparse_matrix_generator.py 8 8 4 2
+ 1280  python3 multi.py 
+ 1281  python3 sparse_matrix_generator.py 4 8 4 2
+ 1282  python3 multi.py 
+ 1283  gcc -Wall -pedantic matrix_mult.c 
+ 1284  ./a.out 
+ 1285  gcc -Wall -pedantic matrix_mult.c 
+ 1286  gcc -Wall -pedantic matrix_mult.c
+ 1287  ./a.out 
+ 1288  ls
+ 1289  cd out_2025-02-09
+ 1290  ls
+ 1291  cd directed_c_tests/
+ 1292  ls
+ 1293  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1294  code asem.asm 
+ 1295  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1296  ./a.out 
+ 1297  python3 multi.py 
+ 1298  python3 sparse_matrix_generator.py 8 8 8 2
+ 1299  gcc -Wall -pedantic matrix_mult.c 
+ 1300  ./a.out 
+ 1301  python3 multi.py 
+ 1302  python3 sparse_matrix_generator.py 16 16 16 2
+ 1303  python3 multi.py 
+ 1304  gcc -Wall -pedantic matrix_mult.c 
+ 1305  ./a.out 
+ 1306  python3 multi.py 
+ 1307  cd thesis
+ 1308  cd cva6/
+ 1309  ls
+ 1310  cat runme.sh 
+ 1311  ./runme.sh 
+ 1312  cd thesis
+ 1313  cd cva6/
+ 1314  cd verif/
+ 1315  cd sim/
+ 1316  ls
+ 1317  cd out_202
+ 1318  cd out_2025-02-09
+ 1319  ls
+ 1320  cd veri-testharness_sim/
+ 1321  ls
+ 1322  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1323  cd thesis
+ 1324  cd cva6/
+ 1325  ls
+ 1326  cd verif/tests/custom/common/
+ 1327  ls
+ 1328  ls -l
+ 1329  code syscalls.c 
+ 1330  cd ..
+ 1331  ./runme.sh 
+ 1332  cd thesis
+ 1333  cd cva6/
+ 1334  ./runme.sh 
+ 1335  cd thesis
+ 1336  cd cva6/
+ 1337  cd verif/
+ 1338  cd sim/
+ 1339  ls
+ 1340  cd out_2025-02-1
+ 1341  cd out_2025-02-10
+ 1342  ls
+ 1343  cd veri-testharness_sim/
+ 1344  ls
+ 1345  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1346  python3 multi.py 
+ 1347  python3 sparse_matrix_generator.py 4 4 4 2
+ 1348  cd thesis
+ 1349  cd cva6/
+ 1350  ./runme.sh 
+ 1351  cd thesis
+ 1352  cd cva6/
+ 1353  ./runme.sh 
+ 1354  python3 sparse_matrix_generator.py 8 8 8 1
+ 1355  python3 sparse_matrix_generator.py 8 8 8 2
+ 1356  python3 sparse_matrix_generator.py 16 16 16 2
+ 1357  python3 multi.py 
+ 1358  gcc -Wall -pedantic matrix_mult.c 
+ 1359  python3 multi.py 
+ 1360  gcc -Wall -pedantic matrix_mult.c 
+ 1361  ./a.out 
+ 1362  python3 multi.py 
+ 1363  cd thesis
+ 1364  cd cva6/
+ 1365  ls
+ 1366  cat runme.sh 
+ 1367  ./runme.sh 
+ 1368  nano runme.sh 
+ 1369  ./runme.sh 
+ 1370  nano runme.sh 
+ 1371  ./runme.sh 
+ 1372  cd thesis
+ 1373  cd cva6/
+ 1374  find . "lib.py"
+ 1375  clear
+ 1376  find . "lib.py"
+ 1377  find "lib.py" .
+ 1378  clear
+ 1379  find "lib.py" .
+ 1380  find lib.py
+ 1381  find . -name lib.py
+ 1382  code corev_apu/register_interface/vendor/lowrisc_opentitan/util/reggen/lib.py
+ 1383  code corev_apu/register_interface/vendor/lowrisc_opentitan/util/topgen/lib.py
+ 1384  code verif/sim/dv/scripts/lib.py
+ 1385  cd verif/
+ 1386  cd sim/
+ 1387  ls
+ 1388  cd out_2025-02-12
+ 1389  ls
+ 1390  cd veri-testharness_sim/
+ 1391  ls
+ 1392  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1393  vcd2fst -h
+ 1394  vcd2fst -h-help
+ 1395  vcd2fst --help
+ 1396  sudo apt install gtkwave
+ 1397  cd thesis
+ 1398  cd cva6/
+ 1399  cd verif/
+ 1400  cd sim/
+ 1401  ls
+ 1402  cd out_2025-02-12
+ 1403  ls
+ 1404  cd er
+ 1405  cd veri-testharness_sim/
+ 1406  ls
+ 1407  ls -l
+ 1408  git status
+ 1409  git add matrix_mult.c matrix_mult_v1.c multi.py 
+ 1410  git commit -m "Latest changes"
+ 1411  git push
+ 1412  git status
+ 1413  git add matrix_mult.c matrix_mult_v1.c 
+ 1414  git commit -m "Final Version of matrix_mult.c and matrix_mult_v1.c"
+ 1415  git push
+ 1416  gcc -Wall -pedantic matrix_mult.c 
+ 1417  ./a.out 
+ 1418  python3 multi.py 
+ 1419  python3 sparse_matrix_generator.py 128 128 128 2 
+ 1420  python3 multi.py 
+ 1421  gcc -Wall -pedantic matrix_mult.c 
+ 1422  ./a.out 
+ 1423  python3 multi.py 
+ 1424  ./a.out 
+ 1425  python3 multi.py 
+ 1426  gcc -Wall -pedantic matrix_mult.c 
+ 1427  ./a.out 
+ 1428  python3 sparse_matrix_generator.py 4 4 4 2 
+ 1429  python3 multi.py 
+ 1430  gcc -Wall -pedantic matrix_mult.c 
+ 1431  ./a.out 
+ 1432  python3 multi.py 
+ 1433  python3 sparse_matrix_generator.py 8 4 8 2 
+ 1434  gcc -Wall -pedantic matrix_mult.c 
+ 1435  ./a.out 
+ 1436  python3 multi.py 
+ 1437  python3 sparse_matrix_generator.py 8 8 8 2 
+ 1438  gcc -Wall -pedantic matrix_mult.c 
+ 1439  ./a.out 
+ 1440  python3 multi.py 
+ 1441  python3 sparse_matrix_generator.py 16 16 16 2 
+ 1442  gcc -Wall -pedantic matrix_mult.c 
+ 1443  ./a.out 
+ 1444  python3 multi.py 
+ 1445  python3 sparse_matrix_generator.py 20 16 20 2 
+ 1446  ./a.out 
+ 1447  gcc -Wall -pedantic matrix_mult.c 
+ 1448  ./a.out 
+ 1449  python3 multi.py 
+ 1450  python3 sparse_matrix_generator.py 32 40 32 2 
+ 1451  gcc -Wall -pedantic matrix_mult.c 
+ 1452  ./a.out 
+ 1453  python3 multi.py 
+ 1454  python3 sparse_matrix_generator.py 32 32 32 3 
+ 1455  python3 sparse_matrix_generator.py 16 16 16 4 
+ 1456  python3 sparse_matrix_generator.py 20 16 32 4 
+ 1457  python3 sparse_matrix_generator.py 16 8 12 4 
+ 1458  gcc -Wall -pedantic matrix_mult.c 
+ 1459  ./a.out 
+ 1460  ./a.out >> results.txt 
+ 1461  gcc -Wall -pedantic matrix_mult.c 
+ 1462  ./a.out >> results.txt 
+ 1463  gcc -Wall -pedantic matrix_mult.c 
+ 1464  ./a.out >> results.txt 
+ 1465  cd out_2025-02-12
+ 1466  ls
+ 1467  cd veri-testharness_sim/
+ 1468  ls -l
+ 1469  cd out_2025-02-12/
+ 1470  cd directed_c_tests/
+ 1471  ls
+ 1472  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1473  code asme
+ 1474  code asem.asm 
+ 1475  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1476  cd thesis
+ 1477  cd ver
+ 1478  cd cva6/
+ 1479  cd verif/
+ 1480  cd sim/
+ 1481  cd out_2025-02-12
+ 1482  ls
+ 1483  cd veri-testharness_sim/
+ 1484  ls
+ 1485  vcd2fst matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult.cv64a6_imafdc_sv39.fst --compress
+ 1486  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.fst matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1487  gtkwave matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1488  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1489  cd th
+ 1490  CD TH
+ 1491  cd thesis
+ 1492  cd cva6/
+ 1493  ls
+ 1494  cat runme.sh 
+ 1495  ls
+ 1496  cd out_202
+ 1497  cd out_2025-02-12
+ 1498  ls
+ 1499  cd directed_c_tests/
+ 1500  l
+ 1501  ls
+ 1502  cd thesis
+ 1503  cd cva6/
+ 1504  code runme.sh 
+ 1505  ./runme.sh 
+ 1506  htop
+ 1507  ls
+ 1508  cd thesis
+ 1509  cd cva6/
+ 1510  ls
+ 1511  ./runme.sh 
+ 1512  nano runme.sh 
+ 1513  ./runme.sh 
+ 1514  nano runme.sh 
+ 1515  ./runme.sh 
+ 1516  cd thesis
+ 1517  cd th
+ 1518  cd cva6/
+ 1519  ls
+ 1520  cat runme.sh 
+ 1521  ./runme.sh 
+ 1522  cd thesis
+ 1523  cd cva6/
+ 1524  ls
+ 1525  ./runme.sh 
+ 1526  find . -name lib.c
+ 1527  codecode
+ 1528  code util/toolchain-builder/src/binutils-gdb/ld/testsuite/ld-ifunc/lib.c
+ 1529  codecode
+ 1530  ls
+ 1531  cd thesis
+ 1532  cd cva6/
+ 1533  ls
+ 1534  find . --type -f -name lib.c 
+ 1535  find . -type -f -name lib.c 
+ 1536  find . -type f -name lib.c 
+ 1537  find -type f -name lib.c 
+ 1538  find . -name lib.c
+ 1539  find . -name lib
+ 1540  ls
+ 1541  cat runme.sh 
+ 1542  ./runme.sh 
+ 1543  cat runme.sh 
+ 1544  cd thesis
+ 1545  cd cva6/
+ 1546  ./runme.sh 
+ 1547  cd thesis
+ 1548  find . lib.c
+ 1549  find . -name lib.c
+ 1550  cd ..
+ 1551  cd thesis
+ 1552  cd cva6/
+ 1553  ls
+ 1554  cd core
+ 1555  find . -name lib.c
+ 1556  cd ..
+ 1557  cd util/
+ 1558  find . -name lib.c
+ 1559  cd ..
+ 1560  cd verif/
+ 1561  find . -name lib.c
+ 1562  cd ..
+ 1563  find . -type f -name "lib.c"
+ 1564  cd ..
+ 1565  find . -type f -name "lib.c"
+ 1566  find . -type f -name "lib.py"
+ 1567  cd thesis
+ 1568  cd cva6/
+ 1569  find . -type f -name "lib.py"
+ 1570  code verif/sim/dv/scripts/lib.py
+ 1571  cd thesis
+ 1572  cd cva6/
+ 1573  cd verif/
+ 1574  ls
+ 1575  cd sim
+ 1576  ls
+ 1577  code cva6.py 
+ 1578  python3 sparse_matrix_generator.py 4 4 4 1
+ 1579  python3 sparse_matrix_generator.py 4 4 4 2
+ 1580  python3 sparse_matrix_generator.py 4 4 4 3
+ 1581  python3 sparse_matrix_generator.py 4 4 4 4
+ 1582  python3 sparse_matrix_generator.py 4 4 4 5
+ 1583  python3 sparse_matrix_generator.py 4 4 4 6
+ 1584  python3 sparse_matrix_generator.py 4 4 4 7
+ 1585  python3 sparse_matrix_generator.py 4 4 4 8
+ 1586  python3 sparse_matrix_generator.py 4 4 4 9
+ 1587  python3 sparse_matrix_generator.py 4  4 10
+ 1588  python3 multi.py 
+ 1589  python3 sparse_matrix_generator.py 8 4 4 2
+ 1590  python3 sparse_matrix_generator.py 16 4 4 3
+ 1591  python3 sparse_matrix_generator.py 12 4 4 3
+ 1592  python3 sparse_matrix_generator.py 16 4 4 4
+ 1593  python3 sparse_matrix_generator.py 20 4 4 5
+ 1594  python3 sparse_matrix_generator.py 24 4 4 6
+ 1595  python3 sparse_matrix_generator.py 28 4 4 7
+ 1596  python3 sparse_matrix_generator.py 32 4 4 8
+ 1597  python3 sparse_matrix_generator.py 36 4 4 9
+ 1598  python3 sparse_matrix_generator.py 40 4 4 10
+ 1599  ls
+ 1600  cd out_2025-02-12
+ 1601  ls
+ 1602  cd directed_c_tests/
+ 1603  ls
+ 1604  riscv-none-elf-objdump -S matrix_mult.o
+ 1605  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1606  ls -l
+ 1607  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1608  cd thesis
+ 1609  cd cva6/
+ 1610  cd ver
+ 1611  cd verif/
+ 1612  cd sim/
+ 1613  ls
+ 1614  cd out_2025-02-12
+ 1615  ls
+ 1616  cd veri-testharness_sim/
+ 1617  ls
+ 1618  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1619  cd thesis
+ 1620  cd cva6/
+ 1621  ./runme.sh 
+ 1622  nano runme.sh 
+ 1623  ./runme.sh 
+ 1624  cat runme.sh 
+ 1625  ./runme.sh 
+ 1626  nano runme.sh 
+ 1627  ./runme.sh 
+ 1628  cd out_2025-02-13
+ 1629  python3 sparse_matrix_generator.py 56 4 4 11 
+ 1630  python3 sparse_matrix_generator.py 68 4 4 11 
+ 1631  python3 sparse_matrix_generator.py 56 4 4 11 
+ 1632  python3 sparse_matrix_generator.py 68 4 4 12 
+ 1633  python3 sparse_matrix_generator.py 80 4 4 13 
+ 1634  python3 sparse_matrix_generator.py 92 4 4 14 
+ 1635  python3 sparse_matrix_generator.py 104 4 4 15 
+ 1636  python3 sparse_matrix_generator.py 116 4 16 
+ 1637  python3 sparse_matrix_generator.py 116 4 4 16
+ 1638  python3 sparse_matrix_generator.py 128 4 4 17
+ 1639  python3 sparse_matrix_generator.py 168 4 4 18
+ 1640  python3 sparse_matrix_generator.py 208 4 4 19
+ 1641  python3 sparse_matrix_generator.py 248 4 4 20
+ 1642  python3 sparse_matrix_generator.py 256 4 4 21
+ 1643  python3 sparse_matrix_generator.py 336 4 4 22
+ 1644  python3 sparse_matrix_generator.py 512 4 4 23
+ 1645  python3 sparse_matrix_generator.py 712 4 4 24
+ 1646  python3 sparse_matrix_generator.py 912 4 4 25
+ 1647  python3 sparse_matrix_generator.py 1024 4 4 26
+ 1648  cd thesis
+ 1649  cd cva6/
+ 1650  cat runme.sh 
+ 1651  ./runme.sh 
+ 1652  cd thesis
+ 1653  cd cva6/
+ 1654  cd verif/
+ 1655  cd sim/
+ 1656  cd out_2025-02-12
+ 1657  ls
+ 1658  cd ver
+ 1659  cd veri-testharness_sim/
+ 1660  ls
+ 1661  cd thesis
+ 1662  cd cva6/
+ 1663  ls
+ 1664  cat runme.sh 
+ 1665  ./runme.sh 
+ 1666  python3 multi.py 
+ 1667  cd out_2025-02-13
+ 1668  ls
+ 1669  cd directed_c_tests/
+ 1670  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1671  code asem.asm 
+ 1672  ls
+ 1673  cd thesis
+ 1674  cd cva6/
+ 1675  ls
+ 1676  cd c
+ 1677  cd core
+ 1678  ls
+ 1679  cd cv
+ 1680  cd cvxif_example/
+ 1681  ls
+ 1682  ls -l
+ 1683  cd th
+ 1684  cd thesis
+ 1685  cd cvq
+ 1686  cd cva6/
+ 1687  cd ver
+ 1688  cd verif/
+ 1689  cd sim/
+ 1690  cd out_2025-02-13
+ 1691  l
+ 1692  cd veri-testharness_sim/
+ 1693  ls
+ 1694  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1695  cd thesis
+ 1696  cd cva6/
+ 1697  ./runme.sh 
+ 1698  cd cva6/
+ 1699  ./runme.sh 
+ 1700  cd thesis
+ 1701  cd cva6/
+ 1702  ls
+ 1703  ./runme.sh 
+ 1704  cat runme.sh 
+ 1705  nano runme.sh 
+ 1706  ./runme.sh 
+ 1707  cat runme.sh 
+ 1708  python3 sparse_matrix_generator.py 16 16 16 26
+ 1709  python3 sparse_matrix_generator.py 32 32 32 27
+ 1710  python3 sparse_matrix_generator.py 64 64 64 28
+ 1711  cd thesis
+ 1712  cd cva6/
+ 1713  ./runme.sh 
+ 1714  python3 ma
+ 1715  python3 sparse_matrix_generator.py 16 4 16 29
+ 1716  python3 sparse_matrix_generator.py 16 32 16 30
+ 1717  python3 sparse_matrix_generator.py 16 64 16 31
+ 1718  python3 multi.py 
+ 1719  python3 sparse_matrix_generator.py 16 128 16 32
+ 1720  python3 sparse_matrix_generator.py 16 256 16 33
+ 1721  python3 sparse_matrix_generator.py 16 512 16 34
+ 1722  python3 sparse_matrix_generator.py 8 4 8 35
+ 1723  python3 sparse_matrix_generator.py 8 8 8 36
+ 1724  python3 sparse_matrix_generator.py 8 16 8 37
+ 1725  python3 sparse_matrix_generator.py 8 32 8 38
+ 1726  python3 sparse_matrix_generator.py 8 64 8 39
+ 1727  python3 sparse_matrix_generator.py 8 128 8 40
+ 1728  python3 sparse_matrix_generator.py 8 256 8 41
+ 1729  python3 sparse_matrix_generator.py 8 512 8 42
+ 1730  python3 sparse_matrix_generator.py 8 700 8 43
+ 1731  python3 sparse_matrix_generator.py 32 4 32 43
+ 1732  python3 sparse_matrix_generator.py 32 8 32 44
+ 1733  python3 sparse_matrix_generator.py 32 16 32 45
+ 1734  python3 sparse_matrix_generator.py 32 64 32 47
+ 1735  python3 sparse_matrix_generator.py 32 128 32 48
+ 1736  python3 sparse_matrix_generator.py 32 256 32 49
+ 1737  python3 sparse_matrix_generator.py 32 512 32 50
+ 1738  python3 sparse_matrix_generator.py 32 24 32 49
+ 1739  python3 sparse_matrix_generator.py 16 256 8 49
+ 1740  python3 sparse_matrix_generator.py 32 32 8 49
+ 1741  python3 sparse_matrix_generator.py 16 16 8 50
+ 1742  python3 sparse_matrix_generator.py 16 32 8 51
+ 1743  python3 sparse_matrix_generator.py 8 32 16 52
+ 1744  python3 sparse_matrix_generator.py 64 16 64 53
+ 1745  cd out_2025-02-15
+ 1746  ls
+ 1747  cd veri-testharness_sim/
+ 1748  ls
+ 1749  ls -l
+ 1750  cd thesis
+ 1751  cd cva6/
+ 1752  la
+ 1753  cd verif/
+ 1754  ls
+ 1755  cd sim/
+ 1756  ls
+ 1757  cd out_2025-02-15
+ 1758  ls
+ 1759  cd veri-testharness_sim/
+ 1760  ls
+ 1761  gtkwave.exe matrix_mult.cv64a6_imafdc_sv39.vcd matrix_mult_v1.cv64a6_imafdc_sv39.gtkw 
+ 1762  cd thesis
+ 1763  cd cva6/
+ 1764  ./runme.sh 
+ 1765  ls cd thesis
+ 1766  cd cv
+ 1767  cd thesis
+ 1768  cd cva6/
+ 1769  ls
+ 1770  cat runme.sh 
+ 1771  python3 sparse_matrix_generator.py 64 4 4 54
+ 1772  python3 sparse_matrix_generator.py 256 4 4 55
+ 1773  python3 sparse_matrix_generator.py 512 4 4 56
+ 1774  python3 sparse_matrix_generator.py 4 4 64 57
+ 1775  python3 sparse_matrix_generator.py 4 4 256 58
+ 1776  python3 sparse_matrix_generator.py 4 4 512 59
+ 1777  cd thesis
+ 1778  cd cva6/
+ 1779  ./runme.sh 
+ 1780  ls
+ 1781  ls -l
+ 1782  du ls
+ 1783  ls
+ 1784  ls du
+ 1785  du -sh ls
+ 1786  du -sh Desktop/
+ 1787  du -sh Downloads/
+ 1788  du -sh Jupyter/
+ 1789  du -sh Matrix-Multiplication-Simulation/
+ 1790  du -sh hy340/
+ 1791  du -sh hy352/
+ 1792  du -sh hy425
+ 1793  du -sh hy425/
+ 1794  du -sh hy436
+ 1795  du -sh hy457
+ 1796  du -sh hy458
+ 1797  du -sh hy458_2024/
+ 1798  du -sh hy590.32/
+ 1799  cd hy590.31/
+ 1800  ls
+ 1801  cd ..
+ 1802  du -sh hy590.32/
+ 1803  du -sh hy590.31/
+ 1804  du -sh thesis
+ 1805  du -sh thesis/
+ 1806  du -sh thesis_arte/
+ 1807  rm -r thesis_arte/
+ 1808  ls -l
+ 1809  du -sh valgrind-3.22.0/
+ 1810  cd hy425
+ 1811  ls
+ 1812  cd progr_ass
+ 1813  cd progr_ass2
+ 1814  l
+ 1815  ls
+ 1816  cd gem5/
+ 1817  ls
+ 1818  cd hy425
+ 1819  ls
+ 1820  cat runall.sh 
+ 1821  cd ..
+ 1822  ls
+ 1823  cd ..
+ 1824  ls
+ 1825  cd ..
+ 1826  ls
+ 1827  cat benchmark_data.csv 
+ 1828  ls
+ 1829  cat benchmark_data_task2.csv 
+ 1830  ls
+ 1831  cat extract.py 
+ 1832  ls -l
+ 1833  du -sh gem5/
+ 1834  du -sh progr_ass
+ 1835  du -sh progr_ass2
+ 1836  du -sh progr_ass3
+ 1837  cd progr_ass3
+ 1838  ls
+ 1839  cd gem5/
+ 1840  ls
+ 1841  cd ..
+ 1842  ls
+ 1843  cd ..
+ 1844  ls
+ 1845  cd hy458_2024/
+ 1846  ls
+ 1847  cd ..
+ 1848  rm -r \hy458_2024/
+ 1849  ls
+ 1850  cd thesis/
+ 1851  du -sh RISCV/
+ 1852  du -sh cva6/
+ 1853  ls
+ 1854  cd cva6/
+ 1855  ls
+ 1856  cd verif/
+ 1857  ls
+ 1858  cd sim/
+ 1859  ls
+ 1860  du -sh out_2025-02-13
+ 1861  rm -r out_2024-08-06
+ 1862  rm -r out_2024-08-07
+ 1863  rm -r out_2024-08-10
+ 1864  rm -r out_2024-08-21
+ 1865  rm -r out_2024-09-24
+ 1866  rm -r out_2024-12-06
+ 1867  du -sh out_2024-12-13
+ 1868  rm -r out_2024-12-13
+ 1869  rm -r out_2024-12-15
+ 1870  rm -r  out_2025-01-27
+ 1871  rm -r  out_2025-01-28
+ 1872  rm -r  out_2025-01-29
+ 1873  rm -r  out_2025-01-30
+ 1874  rm -r  out_2025-02-01
+ 1875  rm -r  out_2025-02-02
+ 1876  rm -r  out_2025-02-03
+ 1877  rm -r  out_2025-02-04
+ 1878  rm -r  out_2025-02-05
+ 1879  rm -r  out_2025-02-06
+ 1880  rm -r  out_2025-02-07
+ 1881  rm -r  out_2025-02-08
+ 1882  rm -r  out_2025-02-09
+ 1883  ls -l
+ 1884  rm -r out_2025-01-26
+ 1885  rm -r out_2025-02-10
+ 1886  rm -r out_2025-02-12
+ 1887  rm -r out_2025-02-13
+ 1888  rm -r out_2025-02-14
+ 1889  du -sh out_2025-02-18
+ 1890  du -sh out_2025-02-15
+ 1891  cd out_2025-02-15
+ 1892  ls
+ 1893  cd veri-testharness_sim/
+ 1894  ls
+ 1895  ls -l
+ 1896  rm matrix_mult.cv64a6_imafdc_sv39.vcd 
+ 1897  ls 
+ 1898  ls -l
+ 1899  ls
+ 1900  cd thesis/
+ 1901  ls
+ 1902  cd cva6/
+ 1903  ls
+ 1904  cd verif/
+ 1905  ls
+ 1906  cd sim/
+ 1907  ls
+ 1908  exit
+ 1909  nano files.py
+ 1910  python3 files.py 
+ 1911  nano files.py
+ 1912  python3 files.py 
+ 1913  git status
+ 1914  git add .
+ 1915  git commit -m "Final Code"
+ 1916  git push
+ 1917  ls
+ 1918  cd out_2025-02-18
+ 1919  ls
+ 1920  cd directed_c_tests/
+ 1921  ls
+ 1922  objdump -S matrix_mult.o > asem.asm
+ 1923  riscv-none-elf-objdump -S matrix_mult.o > asem.asm
+ 1924  ls
+ 1925  cat asem.asm 
+ 1926  code asem.asm 
+ 1927  cd thesis/
+ 1928  cd cva6/
+ 1929  grep -type f -name "riscv-opc.c"
+ 1930  grep -t f -name "riscv-opc.c"
+ 1931  grep --t f -name "riscv-opc.c"
+ 1932  help grep
+ 1933  grep
+ 1934  grep --help
+ 1935  grep . -f "riscv-opc.c"
+ 1936  grep . -f "cva6.py"
+ 1937  find . -type f -name "riscv-opc.c"
+ 1938  cd ./util/toolchain-builder/src/binutils-gdb/opcodes/riscv-opc.c
+ 1939  cd ./util/toolchain-builder/src/binutils-gdb/opcodes/
+ 1940  ls
+ 1941  code riscv-opc.c
+ 1942  git status
+ 1943  cd verif/sim/dv
+ 1944  git status
+ 1945  cd ..
+ 1946  git status
+ 1947  ls
+ 1948  cd thesis/
+ 1949  cd cva6/
+ 1950  ls
+ 1951  cd verif/
+ 1952  ls
+ 1953  cd ..
+ 1954  ls
+ 1955  cd ma
+ 1956  cd Matrix-Multiplication-Simulation/
+ 1957  ls
+ 1958  cat matrix_mult.c 
+ 1959  cd thesis/
+ 1960  cd RISCV/
+ 1961  LS
+ 1962  ls
+ 1963  cd bin/
+ 1964  ls
+ 1965  cd thesis/
+ 1966  cd cva6/
+ 1967  ls
+ 1968  cd verif/
+ 1969  ls
+ 1970  cd sim/
+ 1971  ls
+ 1972  cd out_2025-02-15
+ 1973  ls
+ 1974  cd directed_c_tests/
+ 1975  ls
+ 1976  cd ..
+ 1977  cd out_2025-02-18
+ 1978  ls
+ 1979  cd directed_c_tests/
+ 1980  ls
+ 1981  riscv-none-elf-gcc -dumpmachine
+ 1982  riscv-none-elf-gcc 
+ 1983  riscv-none-elf 
+ 1984  riscv-none-elf-objdump 
+ 1985  riscv-none-elf-objdump -S -d matrix_mult.o
+ 1986  riscv-none-elf-gcc
+ 1987  riscv-none-elf-gcc -h
+ 1988  riscv-none-elf-gcc -help
+ 1989  riscv-none-elf-gcc --help
+ 1990  riscv-none-elf-gcc -dumpmachine
+ 1991  cd ..
+ 1992  grep . "lp64"
+ 1993  find . "lp64"
+ 1994  grep . lp64
+ 1995  grep lp64 .
+ 1996  grep -R lp64 .
+ 1997  code .
+ 1998  linux --version
+ 1999  exit
+ 2000  ls
+ 2001  ls -al
+ 2002  cd thesis/
+ 2003  ls
+ 2004  cd RISCV/
+ 2005  ls
+ 2006  cd ..
+ 2007  cd cva6/
+ 2008  ls
+ 2009  history > thesis_command_history.txt

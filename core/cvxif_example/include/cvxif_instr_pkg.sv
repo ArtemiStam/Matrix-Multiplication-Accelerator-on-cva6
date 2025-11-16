@@ -12,16 +12,21 @@
 package cvxif_instr_pkg;
 
   typedef enum logic [3:0] {
-    ILLEGAL = 4'b0000,
-    NOP = 4'b0001,
-    ADD = 4'b0010,
-    DOUBLE_RS1 = 4'b0011,
-    DOUBLE_RS2 = 4'b0100,
-    ADD_MULTI = 4'b0101,
-    ADD_RS3_R4 = 4'b0110,
-    ADD_RS3_R = 4'b0111
+    ILLEGAL           = 4'b0000,
+    RESET_ACC         = 4'b0001,
+    LOAD_DENSE        = 4'b0010,
+    LOAD_DENSE_START  = 4'b0011,
+    LOAD_SPARSE       = 4'b0100,
+    LOAD_SPARSE_START = 4'b0101,
+    STORE_ACC0        = 4'b0110,
+    STORE_ACC2        = 4'b0111,
+    STORE_ACC4        = 4'b1000,
+    STORE_ACC6        = 4'b1001,
+    STORE_ACC8        = 4'b1010,
+    STORE_ACC10       = 4'b1011,
+    STORE_ACC12       = 4'b1100,
+    STORE_ACC14       = 4'b1101
   } opcode_t;
-
 
   typedef struct packed {
     logic accept;
@@ -41,7 +46,6 @@ package cvxif_instr_pkg;
     opcode_t     opcode;
   } copro_issue_resp_t;
 
-
   typedef struct packed {
     logic [15:0]      instr;
     logic [15:0]      mask;
@@ -49,87 +53,111 @@ package cvxif_instr_pkg;
   } copro_compressed_resp_t;
 
   // 4 Possible RISCV instructions for Coprocessor
-  parameter int unsigned NbInstr = 10;
+  parameter int unsigned NbInstr = 13;
   parameter copro_issue_resp_t CoproInstr[NbInstr] = '{
       '{
-          // Custom Nop
+          // Custom RESET_ACC
           instr:
-          32'b00000_00_00000_00000_0_00_00000_1111011,  // custom3 opcode
+          32'b00000_00_00000_00000_0_00_00000_0001011,  
           mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
           resp : '{accept : 1'b1, writeback : 1'b0, register_read : {1'b0, 1'b0, 1'b0}},
-          opcode : NOP
+          opcode : RESET_ACC
       },
       '{
-          // Custom Add : cus_add rd, rs1, rs2
+          // Custom Load Dense : ld_dense rs1, rs2
           instr:
-          32'b00000_00_00000_00000_0_01_00000_1111011,  // custom3 opcode
+          32'b00000_00_00000_00000_0_01_00000_0001011,  
           mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b1, 1'b1}},
-          opcode : ADD
+          resp : '{accept : 1'b1, writeback : 1'b0, register_read : {1'b0, 1'b1, 1'b1}},
+          opcode : LOAD_DENSE
       },
       '{
-          // Custom Add rs1 : cus_add rd, rs1, rs1
+          // Custom Load Dense Start: ld_dense_start rs1, rs2
           instr:
-          32'b00000_01_00000_00000_0_01_00000_1111011,  // custom3 opcode
+          32'b00000_01_00000_00000_0_01_00000_0001011,  
           mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b1}},
-          opcode : DOUBLE_RS1
+          resp : '{accept : 1'b1, writeback : 1'b0, register_read : {1'b0, 1'b1, 1'b1}},
+          opcode : LOAD_DENSE_START
       },
       '{
-          // Custom Add rs2 : cus_add rd, rs2, rs2
+          // Custom Load Sparse : ld_sparse rs1, rs2
           instr:
-          32'b00000_10_00000_00000_0_01_00000_1111011,  // custom3 opcode
+          32'b00000_00_00000_00000_0_10_00000_0001011,  
           mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b1, 1'b0}},
-          opcode : DOUBLE_RS2
+          resp : '{accept : 1'b1, writeback : 1'b0, register_read : {1'b0, 1'b1, 1'b1}},
+          opcode : LOAD_SPARSE
       },
       '{
-          // Custom Add Multi rs1 : cus_add rd, rs1, rs1
+          // Custom Load Sparse Start: ld_sparse_start rs1, rs2
           instr:
-          32'b00000_11_00000_00000_0_01_00000_1111011,  // custom3 opcode
+          32'b00000_01_00000_00000_0_10_00000_0001011,  
           mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b1, 1'b1}},
-          opcode : ADD_MULTI
+          resp : '{accept : 1'b1, writeback : 1'b0, register_read : {1'b0, 1'b1, 1'b1}},
+          opcode : LOAD_SPARSE_START
       },
       '{
-          // Custom Add Multi rs1 : cus_add rd, rs1, rs1
+          // Custom Store ACC0 : st_acc0 rd
           instr:
-          32'b00001_00_00000_00000_0_01_00000_1111011,  // custom3 opcode
+          32'b00000_00_00000_00000_0_11_00000_0001011,  
           mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b1, 1'b1, 1'b1}},
-          opcode : ADD_RS3_R
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC0
       },
       '{
-          // Custom Add Multi rs1 : cus_add rd, rs1, rs1
+          // Custom Store ACC2 : st_acc2 rd
           instr:
-          32'b00000_00_00000_00000_0_00_00000_1000011,  // MADD opcode
-          mask: 32'b00000_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b1, 1'b1, 1'b1}},
-          opcode : ADD_RS3_R4
+          32'b00000_10_00000_00000_0_11_00000_0001011,  
+          mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC2
       },
       '{
-          // Custom Add Multi rs1 : cus_add rd, rs1, rs1
+          // Custom Store ACC4 : st_acc4 rd
           instr:
-          32'b00000_00_00000_00000_0_00_00000_1000111,  // MSUB opcode
-          mask: 32'b00000_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b1, 1'b1, 1'b1}},
-          opcode : ADD_RS3_R4
+          32'b00001_00_00000_00000_0_11_00000_0001011,  
+          mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC4
       },
       '{
-          // Custom Add Multi rs1 : cus_add rd, rs1, rs1
+          // Custom Store ACC6 : st_acc6 rd
           instr:
-          32'b00000_00_00000_00000_0_00_00000_1001011,  // NMSUB opcode
-          mask: 32'b00000_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b1, 1'b1, 1'b1}},
-          opcode : ADD_RS3_R4
+          32'b00001_10_00000_00000_0_11_00000_0001011,  
+          mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC6
       },
       '{
-          // Custom Add Multi rs1 : cus_add rd, rs1, rs1
+          // Custom Store ACC8 : st_acc8 rd
           instr:
-          32'b00000_00_00000_00000_0_00_00000_1001111,  // NMADD opcode
-          mask: 32'b00000_11_00000_00000_1_11_00000_1111111,
-          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b1, 1'b1, 1'b1}},
-          opcode : ADD_RS3_R4
+          32'b00010_00_00000_00000_0_11_00000_0001011,  
+          mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC8
+      },
+      '{
+          // Custom Store ACC10 : st_acc10 rd
+          instr:
+          32'b00010_10_00000_00000_0_11_00000_0001011,  
+          mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC10
+      },
+      '{
+          // Custom Store ACC12 : st_acc12 rd
+          instr:
+          32'b00011_00_00000_00000_0_11_00000_0001011,  
+          mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC12
+      },
+      '{
+          // Custom Store ACC14 : st_acc14 rd
+          instr:
+          32'b00011_10_00000_00000_0_11_00000_0001011,  
+          mask: 32'b11111_11_00000_00000_1_11_00000_1111111,
+          resp : '{accept : 1'b1, writeback : 1'b1, register_read : {1'b0, 1'b0, 1'b0}},
+          opcode : STORE_ACC14
       }
   };
 
@@ -147,5 +175,5 @@ package cvxif_instr_pkg;
           resp : '{accept : 1'b1, instr : 32'b00000_00_00000_00000_0_01_01010_1111011}
       }
   };
-
+  
 endpackage

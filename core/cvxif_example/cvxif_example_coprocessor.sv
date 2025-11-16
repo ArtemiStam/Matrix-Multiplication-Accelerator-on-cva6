@@ -114,6 +114,7 @@ module cvxif_example_coprocessor
   // Result interface
   copro_alu #(
       .NrRgprPorts(NrRgprPorts),
+      .readregflags_t(readregflags_t),
       .hartid_t(hartid_t),
       .id_t(id_t),
       .registers_t(registers_t)
@@ -121,6 +122,7 @@ module cvxif_example_coprocessor
       .clk_i      (clk_i),
       .rst_ni     (rst_ni),
       .registers_i(registers),
+      .rs_valid_i (cvxif_req_i.register.rs_valid),
       .opcode_i   (opcode),
       .hartid_i   (issue_hartid),
       .id_i       (issue_id),

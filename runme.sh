@@ -9,6 +9,7 @@ source verif/sim/setup-env.sh
 export DV_SIMULATORS=veri-testharness
 export VERILATOR_ROOT=/home/artemi/thesis/cva6/tools/verilator-v5.008/build-v5.008
 export TRACE_FAST=1
+export NUM_JOBS=10
 
 cd ./verif/sim
 
@@ -18,9 +19,17 @@ cd ./verif/sim
 #../tests/custom/common/crt.S -lgcc \
 #-I../tests/custom/env -I../tests/custom/common" -v
 
-
-#python3 cva6.py --target cv64a6_imafdc_sv39 --iss=$DV_SIMULATORS --iss_yaml=cva6.yaml --c_tests ../tests/custom/hello_world/hello_world.c --linker=../tests/custom/common/test.ld --gcc_opts="-static -mcmodel=medany -fvisibility=hidden -nostdlib \
-python3 cva6.py --target cv64a6_imafdc_sv39 --iss=$DV_SIMULATORS --iss_yaml=cva6.yaml --c_tests /home/artemi/Matrix-Multiplication-Simulation/matrix_mult_v1.c --linker=../tests/custom/common/test.ld --gcc_opts="-static -mcmodel=medany -nostdlib \
+python3 cva6.py --target cv64a6_imafdc_sv39 --iss=$DV_SIMULATORS --iss_yaml=cva6.yaml --c_tests /home/artemi/Matrix-Multiplication-Simulation/matrix_mult.c --linker=../tests/custom/common/test.ld --gcc_opts="-static -mcmodel=medany -fvisibility=hidden \
 -nostartfiles -g ../tests/custom/common/syscalls.c \
 ../tests/custom/common/crt.S -lgcc \
--I../tests/custom/env -I../tests/custom/common" -v
+-I../tests/custom/env -I../tests/custom/common -O2" -v
+
+#python3 cva6.py --target cv64a6_imafdc_sv39 --iss=$DV_SIMULATORS --iss_yaml=cva6.yaml --asm_tests /home/artemi/thesis/cva6/verif/tests/custom/cv_xif/cvxif_Accelerator.S --linker=../tests/custom/common/test.ld --gcc_opts="-static -mcmodel=medany -fvisibility=hidden -nostdlib \
+#-nostartfiles -g ../tests/custom/common/syscalls.c \
+#../tests/custom/common/crt.S -lgcc \
+#-I../tests/custom/env -I../tests/custom/common" -v
+
+#python3 cva6.py --target cv64a6_imafdc_sv39 --iss=$DV_SIMULATORS --iss_yaml=cva6.yaml --c_tests ../tests/custom/hello_world/hello_world.c --linker=../tests/custom/common/test.ld --gcc_opts="-static -mcmodel=medany -fvisibility=hidden  \
+#-nostartfiles -g ../tests/custom/common/syscalls.c \
+#../tests/custom/common/crt.S -lgcc \
+#-I../tests/custom/env -I../tests/custom/common" -v

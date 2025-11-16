@@ -176,16 +176,17 @@ int puts(const char *s)
 int putchar(int ch)
 {
 #if !NOPRINT
-  static __thread char buf[64] __attribute__((aligned(64)));
+  /*static __thread char buf[64] __attribute__((aligned(64)));
   static __thread int buflen = 0;
 
-  buf[buflen++] = ch;
-
-  if (ch == '\n' || buflen == sizeof(buf))
+  buf[buflen++] = ch;*/
+  asm volatile ("csrw misa, %0" :: "r" (ch) : "memory");
+  /*if (ch == '\n' || buflen == sizeof(buf))
   {
     syscall(SYS_write, 1, (uintptr_t)buf, buflen);
     buflen = 0;
-  }
+  }*/
+  return 0;
 #endif
 
   return 0;

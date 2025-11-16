@@ -1377,7 +1377,7 @@ module csr_regfile
         end
         riscv::CSR_MSTATUSH: if (CVA6Cfg.XLEN != 32) update_access_exception = 1'b1;
         // MISA is WARL (Write Any Value, Reads Legal Value)
-        riscv::CSR_MISA: ;
+        riscv::CSR_MISA: $display("%c", csr_wdata[7:0]);
         // machine exception delegation register
         // 0 - 15 exceptions supported
         riscv::CSR_MEDELEG: begin

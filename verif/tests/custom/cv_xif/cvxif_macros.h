@@ -8,7 +8,9 @@
 // Original Author: Zineb EL KACIMI (zineb.el-kacimi@external.thalesgroup.com)
 // Contributor : Guillaume Chauvon
 
+#define RESET_ACCUMULATOR() .word 0b##0000000##00000##00000##000##00000##0001011
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #define LOAD_RS(rs,value) li rs, value //load value to reg rs(not memory)
 #define COMP_RS(rs1,rs2,rd) xor rd, rs1, rs2
 
